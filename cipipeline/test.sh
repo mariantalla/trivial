@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo $PWD
+export GOPATH=$GOPATH:$PWD/hellopcf/vendor
 
 cd hellopcf/hello
 go test ./...
