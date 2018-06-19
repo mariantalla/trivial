@@ -13,4 +13,4 @@ jobs:
   - get: hellopcf
     trigger: true
   - task: test
-    file: hellopcf/hello/test.yml
+    file: hellopcf/cipipeline/test.yml
