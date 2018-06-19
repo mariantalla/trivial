@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GOPATH=$GOPATH:$PWD/hellopcf/vendor
-
+cp -r hellopcf/vendor/github.com $GOPATH/src
 cd hellopcf/hello
+
 go test ./...
