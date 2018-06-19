@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd hellopcf/hello
+cd ../hellopcf/hello
 go test ./...
