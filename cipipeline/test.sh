@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cp -r hellopcf/vendor/* $GOPATH/src/
-cd hellopcf/hello
+cp -r hellopcf $GOPATH/src/
+
+cd $GOPATH/src/hellopcf/
 
 go test ./...
