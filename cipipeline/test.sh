@@ -2,5 +2,5 @@
 
 echo $PWD
 
-# cd ../hello
-# go test ./...
+cd hellopcf/hello
+go test ./...
