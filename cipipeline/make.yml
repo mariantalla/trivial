@@ -1,0 +1,16 @@
+resources:
+- name: hellopcf
+  type: git
+  source:
+    uri: "https://github.com/mariantalla/trivial"
+    branch: sorin
+    private_key: <replace>
+
+
+jobs:
+- name: unit
+  plan:
+  - get: hellopcf
+    trigger: true
+  - task: test
+    file: hellopcf/hello/test.yml
