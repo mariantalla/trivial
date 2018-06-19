@@ -1,4 +1,6 @@
 #!/bin/bash
 
-cd ../hello
-go test ./...
+echo $PWD
+
+# cd ../hello
+# go test ./...
